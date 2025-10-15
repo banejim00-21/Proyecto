@@ -1,5 +1,6 @@
-gradio
+gradio>=4.44.0
 opencv-python
-torch
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
 ultralytics
 numpy

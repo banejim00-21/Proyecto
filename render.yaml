@@ -7,5 +7,6 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn detector:app
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
+      # CAMBIO CLAVE: Usar RENDER_PYTHON_VERSION
+      - key: RENDER_PYTHON_VERSION
+        value: 3.10.14 # O 3.10.14, pero 3.11 es más nuevo y compatible
